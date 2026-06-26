@@ -12,4 +12,8 @@ All'interno della repository troverete:
 1. `visual_data_record.m`: main del progetto, da cui vengono chiamati tutti i filtri e le funzioni di estrazione delle feature
 2. tutte gli altri `.m`: funzioni a supporto del progetto, utili per l'analisi dei segnali e l'estrazione delle feature
 
-Si noti come il dataset ***non*** è caricato in quanto è troppo grade. All'interno del progetto MATLAB che creerete, oltre ad aggiungere i file `.m`, aggiungete la cartella contenente tutti i driveXX.
+Si noti come il dataset ***non*** è caricato in quanto è troppo grade. All'interno del progetto MATLAB che creerete, oltre ad aggiungere i file `.m`, aggiungete la cartella contenente tutti i driveXX. Inoltre, quando la cartella del dataset risulta trasparente (di colore grigio), dovete fare:
+- tasto destro del mouse sulla cartella
+- cliccare `Add to Path / Selected Folder(s) and Subfolders`
+
+Se non lo fate, il progetto darà errore perché non troverà i driveXX su cui lavorare.
